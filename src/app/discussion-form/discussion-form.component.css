@@ -1,0 +1,42 @@
+.panel {
+    position: relative;
+    margin-bottom: 2.143rem;
+    background-color: #fff;
+    border: 0 solid transparent;
+    border-radius: .286rem;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.site-menubar-unfold .page, .site-menubar-unfold .site-footer {
+    margin-left: 260px;
+}
+.page {
+    position: relative;
+    min-height: -webkit-calc(100% - 44px);
+    min-height: calc(100% - 44px);
+    background: #f1f4f5;
+}
+.page-header {
+    position: relative;
+    padding: 30px 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background: 0 0;
+    border-bottom: 0;
+}
+
+.page-header + .page-content {
+    padding-top: 0;
+}
+.page-content {
+    padding: 30px 30px;
+        padding-top: 30px;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 1.0715rem;
+    padding-left: 1.0715rem;
+    margin-right: auto;
+    margin-left: auto;
+}

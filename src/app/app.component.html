@@ -1,0 +1,26 @@
+<div class="d-flex" id="wrapper">
+
+  <!-- Sidebar -->
+  <div class="bg-light border-right" id="sidebar-wrapper">
+    <div class="sidebar-heading">Nuveda </div>
+    <div class="list-group list-group-flush">
+      <a routerLink="/" routerLinkActive="active" class="nav-link">Customer Service Quality <span class="sr-only">(current)</span></a>
+      <a routerLink="/Registration" class="nav-link" routerLinkActive="active" class="list-group-item list-group-item-action bg-ligh">Registration</a>
+      <a routerLink="/Discussion" class="nav-link" routerLinkActive="active" class="list-group-item list-group-item-action bg-ligh">Forum</a>
+      <!-- <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Status</a> -->
+    </div>
+  </div>
+  <div id="page-content-wrapper">
+    <app-header></app-header>
+    <!-- <app-classlist *ngIf="router.url=='classList'"></app-classlist> -->
+    <!-- <app-registration-form *ngIf="router.url == '/Registration'"></app-registration-form> -->
+    <app-customer-service-class *ngIf="router.url == '/'"></app-customer-service-class>
+    <router-outlet></router-outlet>
+  </div>
+  <!-- /#page-content-wrapper -->
+
+</div>
+<!-- /#wrapper -->
